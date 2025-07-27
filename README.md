@@ -26,6 +26,8 @@ The output plot shows:
 - Gray: Historical volume for each day
 - Blue: Average hourly volume
 - Red dashed: Forecasted volume for next day
+<img width="1891" height="964" alt="image" src="https://github.com/user-attachments/assets/12348fd9-5402-4a46-b868-ae210b359f0e" />
+<img width="1822" height="858" alt="image" src="https://github.com/user-attachments/assets/59c53c47-ebe3-4a32-976a-d24af69791ec" />
 
 ---
 
