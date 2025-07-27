@@ -1,27 +1,38 @@
-# Workforce Management (WFM) Analytics Portfolio
+# Project 01 – Forecasting Volume
 
-This repository showcases multiple projects focused on real-world Workforce Management use cases, including:
+This project simulates hourly support volume over 14 days and builds a simple forecasting model to predict future staffing needs.
 
-- Forecasting staffing needs
-- Building optimized schedules
-- Tracking real-time adherence
-- Calculating WFM KPIs
-- Monitoring performance and SLA breaches
-- Supporting onboarding of outsourcing partners
+## 📊 Objective
+Use historical hourly volume data to forecast staffing needs for future days — a key component of Workforce Management (WFM).
 
-## 📁 Project Index
+## 🧰 Tools
+- Python (Pandas, NumPy, Matplotlib)
+- Excel (for data sharing and analysis)
 
-| Project | Description |
-|--------|-------------|
-| [01 - Forecasting Volume](./01-forecasting-volume/) | Predict demand using Excel & Python |
-| [02 - Scheduling Optimizer](./02-scheduling-optimizer/) | Build shift plans to match coverage needs |
-| [03 - Adherence Tracking Dashboard](./03-adherence-tracking-dashboard/) | Visualize real-time and historical adherence |
-| [04 - KPI Automation in Python](./04-kpi-automation-python/) | Automatically calculate metrics |
-| [05 - Real-Time Performance Monitor](./05-realtime-performance-monitor/) | Track SLA breaches and trends |
-| [06 - Outsourcing Integration Plan](./06-outsourcing-integration-plan/) | Structure for BPO integration |
+## 🧪 Method
+1. Simulated 14 days of hourly volume between 8 AM and 8 PM.
+2. Modeled daily traffic pattern using a sinusoidal function + random noise.
+3. Averaged volume per hour over the 14 days.
+4. Used the average to forecast demand for a future day.
+5. Visualized historical data, average trend, and forecast.
 
-## 👤 Author
-[Malaika Vardak]([https://www.linkedin.com/in/...](https://www.linkedin.com/in/malaikavardak/))
+## 📁 Files
+- `demand_forecast.xlsx`: Excel with raw data, hourly averages, and forecast
+- `forecasting_model.ipynb`: Python notebook used to generate the simulation and forecast
+- `README.md`: This file
 
-## 📜 License
-MIT License
+## 📈 Visualization
+The output plot shows:
+- Gray: Historical volume for each day
+- Blue: Average hourly volume
+- Red dashed: Forecasted volume for next day
+
+---
+
+## 📌 WFM Relevance
+Forecasting is essential for:
+- Accurate staffing
+- Cost control
+- Meeting SLAs
+
+This project demonstrates a simple yet practical approach to demand prediction in operations and remote support environments.
