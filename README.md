@@ -13,7 +13,7 @@ This repository showcases multiple projects focused on real-world Workforce Mana
 
 | Project | Description |
 |--------|-------------|
-| [01 - Forecasting Volume](./01-forecasting-volume/) | Predict demand using Excel & Python |
+| [01 - Forecasting Volume](https://github.com/malaikavardak/wfm-analytics-portfolio/tree/01-forecasting-volume) | Predict demand using Excel & Python |
 | [02 - Scheduling Optimizer](./02-scheduling-optimizer/) | Build shift plans to match coverage needs |
 | [03 - Adherence Tracking Dashboard](./03-adherence-tracking-dashboard/) | Visualize real-time and historical adherence |
 | [04 - KPI Automation in Python](./04-kpi-automation-python/) | Automatically calculate metrics |
